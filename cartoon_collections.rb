@@ -1,4 +1,4 @@
-seven_dwarves = ["one", "two", "three", "four", "five", "six", "seven"]
+seven_dwarves = ["Doc", "Dopey", "Bashful", "Grumpy", "five", "six", "seven"]
 
 def roll_call_dwarves(dwarves)
   numbered_dwarves = []
@@ -7,7 +7,7 @@ def roll_call_dwarves(dwarves)
     numbered_dwarves << "#{number}. name"
   end
   dwarves_list = numbered_dwarves.join(" ")
-  dwarves_list
+  puts dwarves_list
 end
 
 def summon_captain_planet# code an argument here
