@@ -4,8 +4,7 @@ def roll_call_dwarves(dwarves)
     number = index + 1 
     numbered_dwarves << "#{number}. name"
   end
-  dwarves_list = numbered_dwarves.join("/")
-  puts dwarves_list
+  puts numbered_dwarves
 end
 
 def summon_captain_planet# code an argument here
