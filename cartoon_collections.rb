@@ -8,8 +8,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(food)
-  food.map! { |item| item.capitalize }
-  
+  food.map! { |item| item.capitalize + "1" }
 end
 
 def long_planeteer_calls# code an argument here
