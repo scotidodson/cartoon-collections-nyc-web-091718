@@ -10,7 +10,7 @@ end
 def summon_captain_planet(food)
   excited_food = []
   food.each do |item|
-  excited_food << "!"
+  excited_food << "#{item}!"
   end
   puts excited_food 
 end
