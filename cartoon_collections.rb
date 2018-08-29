@@ -4,7 +4,7 @@ def roll_call_dwarves(dwarves)
   numbered_dwarves = []
   dwarves.each_with_index do |name, index|
     number = index + 1 
-    numbered_dwarves << "#{number}. name"
+    numbered_dwarves << "#{number}. #{name}"
   end
   puts numbered_dwarves
 end
