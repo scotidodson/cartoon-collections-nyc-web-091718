@@ -4,7 +4,7 @@ def roll_call_dwarves(dwarves)
     number = index + 1 
     numbered_dwarves << "#{number}. name"
   end
-  dwarves_list = numbered_dwarves.join(" ")
+  dwarves_list = numbered_dwarves.join("/")
   puts dwarves_list
 end
 
