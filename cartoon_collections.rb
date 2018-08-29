@@ -11,8 +11,8 @@ def summon_captain_planet(food)
   food.map! { |item| item.capitalize + "!" }
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(array_of_calls)
+  
 end
 
 def find_the_cheese# code an argument here
