@@ -12,7 +12,7 @@ def summon_captain_planet(food)
 end
 
 def long_planeteer_calls(array_of_calls)
-  array_of_calls.include?(>=4)
+  array_of_calls.include?(4)
 end
 
 def find_the_cheese# code an argument here
