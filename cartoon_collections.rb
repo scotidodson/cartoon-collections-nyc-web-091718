@@ -8,11 +8,8 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(food)
-  excited_food = []
-  food.each do |item|
-  excited_food << "#{item}!"
-  end
-  puts excited_food 
+
+  
 end
 
 def long_planeteer_calls# code an argument here
