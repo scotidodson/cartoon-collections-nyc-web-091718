@@ -1,5 +1,3 @@
-dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
-
 def roll_call_dwarves(dwarves)
   numbered_dwarves = []
   dwarves.each_with_index do |name, index|
