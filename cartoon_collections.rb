@@ -11,7 +11,7 @@ def summon_captain_planet(food)
   food.each do |item|
     << "!"
   end
-  
+  puts food 
 end
 
 def long_planeteer_calls# code an argument here
