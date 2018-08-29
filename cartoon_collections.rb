@@ -9,7 +9,7 @@ end
 
 def summon_captain_planet(food)
   food.each do |item|
-    << "!"
+   food << "!"
   end
   puts food 
 end
