@@ -1,5 +1,13 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+seven_dwarves = ["one", "two", "three", "four", "five", "six", "seven"]
+
+def roll_call_dwarves(dwarves)
+  numbered_dwarves = []
+  seven_dwarves.each_with_index do |name, index|
+    number = index + 1 
+    numbered_dwarves << "#{number}. name"
+  end
+  dwarves_list = numbered_dwarves.join(" ")
+  dwarves_list
 end
 
 def summon_captain_planet# code an argument here
