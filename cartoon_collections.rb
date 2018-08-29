@@ -8,7 +8,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(food)
-  food.each do |item|
+  food.collect do |item|
   food << "!"
   end
   puts food 
