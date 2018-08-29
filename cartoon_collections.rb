@@ -1,7 +1,6 @@
 def roll_call_dwarves(dwarves)
-  seven_dwarves = ["Doc", "Dopey", "Bashful", "Grumpy", "five", "six", "seven"]
   numbered_dwarves = []
-  seven_dwarves.each_with_index do |name, index|
+  dwarves.each_with_index do |name, index|
     number = index + 1 
     numbered_dwarves << "#{number}. name"
   end
