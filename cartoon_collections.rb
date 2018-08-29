@@ -1,5 +1,3 @@
-
-
 def roll_call_dwarves(dwarves)
   seven_dwarves = ["Doc", "Dopey", "Bashful", "Grumpy", "five", "six", "seven"]
   numbered_dwarves = []
