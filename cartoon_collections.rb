@@ -8,7 +8,10 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(food)
-  food.each do 
+  food.each do |item|
+    << "!"
+  end
+  
 end
 
 def long_planeteer_calls# code an argument here
